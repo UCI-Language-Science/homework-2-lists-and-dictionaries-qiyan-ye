@@ -41,11 +41,11 @@ def grocery_calculator():
         if item not in grocery_dict:
             print("The store doesn't have that")
             print("Input grocery item:")
-            item = input()
+            item = input("Please enter your response: ")
         else:
             tot_grocery.append(grocery_dict[item])
             print("Input next grocery item:")
-            item = input()
+            item = input("Please enter your response: ")
     print("Your total grocery bill is $" + str(sum(tot_grocery)))
 
 if __name__ == "__main__":
