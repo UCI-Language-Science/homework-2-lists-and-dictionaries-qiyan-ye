@@ -35,7 +35,7 @@ def grocery_calculator():
         'butter': 2
     }
     print("Input grocery item:")
-    item = input()
+    item = input("Please enter your response: ")
     tot_grocery = []
     while item != "":
         if item not in grocery_dict:

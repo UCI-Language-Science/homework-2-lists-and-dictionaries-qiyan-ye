@@ -23,7 +23,7 @@
 def temperature_calculator():
     temp_list = []
     print("Input a temperature")
-    temp = input()
+    temp = input("Please enter your response: ")
     while temp != "quit":
         temp_list.append(int(temp))
         print("The average temperature so far is " + str(sum(temp_list)/len(temp_list)))
