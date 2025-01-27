@@ -8,7 +8,13 @@
 def duplicate_remover():
     duplicates_list = [1, 4, 3, 4, 2, 5, 1, 2, 7, 9, 4]
     
-    # YOUR CODE GOES HERE
+    dup_removed = []
+    for x in duplicates_list:
+        if x not in dup_removed:
+            dup_removed.append(x)
+
+    print(dup_removed)
+    
 
 if __name__ == "__main__":
     duplicate_remover()
